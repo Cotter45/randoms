@@ -9,7 +9,7 @@ function FourOhFour() {
       <section className='section'>
         <section className='list_column'>
           <h2>This page doesn't exist yet!</h2>
-          <button name='Return Home' type='button' className='link' onClick={() => navigate('/')}>Phone Home</button>
+          <button name='Return Home' type='button' className='link' onClick={() => navigate('/randoms')}>Phone Home</button>
         </section>
       </section>
 

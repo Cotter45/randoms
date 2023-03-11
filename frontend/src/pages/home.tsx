@@ -51,7 +51,7 @@ function Home() {
             <code>{window.location.origin + "/api/parks"}</code>
           </div>
           <button
-            onClick={() => navigate("/parks")}
+            onClick={() => navigate("/randoms/parks")}
             type="button"
             name="Parks"
             className="link"
@@ -96,7 +96,7 @@ function Home() {
             <code>{window.location.origin + "/api/cocktails"}</code>
           </div>
           <button
-            onClick={() => navigate("/cocktails")}
+            onClick={() => navigate("/randoms/cocktails")}
             type="button"
             name="Cocktails"
             className="link"

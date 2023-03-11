@@ -23,7 +23,7 @@ function NavBar() {
       <section className="nav_bar">
         <h2 
           className='title'
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/randoms")}
         >Random API Docs</h2>
         <button 
           type='button' 
@@ -43,7 +43,7 @@ function NavBar() {
             name='Parks'
             className='link fade_in'
             onClick={() => {
-              navigate('/parks');
+              navigate('/randoms/parks');
               setIsOpen(false);
             }}
           >
@@ -54,7 +54,7 @@ function NavBar() {
             name='Cocktails'
             className='link fade_in'
             onClick={() => {
-              navigate('/cocktails');
+              navigate('/randoms/cocktails');
               setIsOpen(false);
             }}
           >

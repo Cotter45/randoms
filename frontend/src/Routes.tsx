@@ -7,9 +7,9 @@ import Parks from "./pages/parks";
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/parks" element={<Parks />} />
-      <Route path="/cocktails" element={<Cocktails />} />
+      <Route path="/randoms" element={<Home />} />
+      <Route path="/randoms/parks" element={<Parks />} />
+      <Route path="/randoms/cocktails" element={<Cocktails />} />
       <Route path="*" element={<FourOhFour />} />
     </Routes>
   );
