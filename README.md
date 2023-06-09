@@ -1,8 +1,6 @@
 # random_api
 Not much of a README because the website itself is the documentation.
 
-- https://cotter.tech/randoms
-
 ## Tech
 - NoderJS
 - React 
